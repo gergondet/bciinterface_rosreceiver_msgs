@@ -1,0 +1,22 @@
+<package>
+  <name>bciinterface_rosreceiver_msgs</name>
+  <description>
+    This package defines the message used by the ROSReceiver for bci-interface
+  </description>
+  <author email="pierre.gergondet+github@gmail.com">Pierre Gergondet</author>
+  <maintainer email="pierre.gergondet+github@gmail.com">Pierre Gergondet</maintainer>
+  <license>BSD</license>
+  <version>1.0.0</version>
+  <url>http://ros.org/wiki/bciinterface_rosreceiver_msgs</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <run_depend>message_runtime</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+</package>
+
+
